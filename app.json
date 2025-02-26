@@ -1,0 +1,9 @@
+{
+  "name": "BigSplashFishignAdventure",
+  "displayName": "Big Splash: Fishing Adventure",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "description": "Embark on an epic fishing journey with unique collection mechanics and stunning visuals",
+  "privacy": "public",
+  "backgroundColor": "#00AABA"
+}
