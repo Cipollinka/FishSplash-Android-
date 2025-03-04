@@ -18,14 +18,7 @@ export const HomeScreen: React.FC<RootStackScreenProps<'Home'>> = observer(
     const isStoryFinished = stores?.story?.isStoryFinished;
 
     const handleNavigateStory = () => {
-      if (isStoryFinished) {
         navigation.navigate('GameSelect');
-        return;
-      }
-      if (stores?.story?.currentSceneId) {
-        stores.story.goToScene(stores?.story?.lastPlayedGame || 'intro');
-      }
-      navigation.navigate('Story');
     };
 
     const handleShowLeaderboard = async () => {
@@ -57,7 +50,7 @@ export const HomeScreen: React.FC<RootStackScreenProps<'Home'>> = observer(
               style={{borderRadius: 16}}>
               <View className="h-[90px] justify-center items-center">
                 <Text className="font-bold text-white text-2xl">
-                  {isStoryFinished ? 'Game select' : 'Golden Carp story'}
+                    Game select
                 </Text>
               </View>
             </LinearGradient>

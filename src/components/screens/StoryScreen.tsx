@@ -51,7 +51,7 @@ export const StoryScreen = observer(() => {
 
   const handleStart = () => {
     if (currentScene.id.includes('start_1')) {
-      navigation.navigate('FishingGame');
+      navigation.navigate('SailGame');
     } else if (currentScene.id.includes('start_2')) {
       navigation.replace('SailGame');
     } else if (currentScene.id.includes('start_3')) {

@@ -19,6 +19,7 @@ import {Easing} from 'react-native-reanimated';
 
 const FishingGameScreen = () => {
   const navigation = useNavigation();
+  navigation.replace('SailGame')
   const store = getStore();
   const SCREEN_WIDTH = Dimensions.get('window').width;
   const SCREEN_HEIGHT = Dimensions.get('window').height;

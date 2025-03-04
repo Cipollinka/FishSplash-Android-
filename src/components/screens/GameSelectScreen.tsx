@@ -28,12 +28,6 @@ export default function GameSelectScreen() {
           </Text>
         </View>
         <Pressable
-          className="p-6 rounded-2xl bg-[#453780] items-center justify-center"
-          onPress={() => navigation.navigate('FishingGame')}>
-          <Text className="font-bold text-white text-2xl">Fishing game</Text>
-        </Pressable>
-
-        <Pressable
           className="p-6 rounded-2xl bg-[#FF0000] items-center justify-center"
           onPress={() => navigation.navigate('SailGame')}>
           <Text className="font-bold text-white text-2xl">Sail game</Text>
