@@ -35,7 +35,7 @@ export const HomeScreen: React.FC<RootStackScreenProps<'Home'>> = observer(
 
         <View className="my-auto pt-8">
           <Text className=" text-[#FEED00] font-black text-[32px] max-w-[280px] text-center">
-            Big Splash: Fishing Adventure
+            SplashFish{'\n'}Adventure
           </Text>
 
           <View className="min-w-[100px] mt-4">

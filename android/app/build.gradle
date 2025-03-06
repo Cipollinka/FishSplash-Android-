@@ -79,7 +79,7 @@ android {
 
     namespace "com.bigsplashfishignadventure"
     defaultConfig {
-        applicationId "com.fishsplash.app"
+        applicationId "com.fishin.frenzy.adventureapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 3
