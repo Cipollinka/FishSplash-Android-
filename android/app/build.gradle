@@ -79,10 +79,10 @@ android {
 
     namespace "com.bigsplashfishignadventure"
     defaultConfig {
-        applicationId "com.fishin.frenzy.adventureapp"
+        applicationId "frenzy.fishing.fun.fishin.app.play.game"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 3
+        versionCode 4
         versionName "1.0"
     }
     signingConfigs {

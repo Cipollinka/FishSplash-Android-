@@ -4,14 +4,14 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.fishin.frenzy.adventureapp",
+  "applicationId": "frenzy.fishing.fun.fishin.app.play.game",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 3,
+      "versionCode": 4,
       "versionName": "1.0",
       "outputFile": "app-release.apk"
     }
